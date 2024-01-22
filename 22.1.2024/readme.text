@@ -1,0 +1,5 @@
+Hướng dẫn sử  dụng
+1. file data.inp là file chứa dữ liệu đầu vào cho các bài từ 1 đến 6
+2. file data7.inp là fiel đầu vào cho bài 7
+3. chỉnh số lượng test ở đầu hằng số test đã cho ở test.cpp
+4. đã gọi các test hoàn chỉnh ở trong test.cpp
