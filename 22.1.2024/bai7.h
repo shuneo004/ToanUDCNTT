@@ -7,8 +7,8 @@ class bai7 {
             bool isPrime[N];
             vector<int> prime;
             for (int i = 0; i < N; ++i) isPrime[i] = true;
-            for (int i = 2; i * i < R; ++i) {
-                for (int j = max(i * i, (L + i - 1)  / i * i); j < R; j += i) {
+            for (int i = 2; i * i <= R; ++i) {
+                for (int j = max(i * i, (L + i - 1)  / i * i); j <= R; j += i) {
                     isPrime[j-L] = false;
                 }
             }
